@@ -1,2 +1,2 @@
-# cnv-anchor-align
-Weakly supervised contrastive alignment of scRNA-seq to CNV subcluster anchors for cross-modal embeddings, evaluation, and biomarker discovery in tumors.
+# Weakly Supervised Contrastive Alignment to CNV Subcluster Anchors for Cross-Modal Representation (and Biomarker Discovery) in Tumor scRNA-seq
+This repo implements a weakly supervised contrastive framework that aligns single-cell RNA-seq profiles to inferCNV subcluster anchors. We train expression and CNV encoders with a projection head and hard-negative mining in z-space, while keeping encoder features (h-space) clean for downstream biology (UMAP, clustering, DE). The toolkit includes anchor-banking, centroid/prototype regularizers, top-k alignment metrics (z & h), visualizations, and epithelial/malignant-focused marker discovery pipelines. Ideal for cross-modal representation learning and tumor biomarker discovery.
